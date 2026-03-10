@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ead1dc;
+}
+
+.register-page {
+  min-height: 100vh;
+  background: #ead1dc;
+  color: #2d1f27;
+}
+
+.hero-section {
+  padding: 40px 20px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.academy-logo {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 18px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.academy-badge {
+  display: inline-block;
+  background: #ffffff;
+  color: #6b4f5f;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 14px;
+}
+
+.hero-section h1 {
+  margin: 0 0 10px;
+  font-size: 40px;
+  color: #3d2b33;
+}
+
+.hero-subtitle {
+  margin: 0 0 12px;
+  font-size: 20px;
+  color: #6a4f5c;
+  font-weight: 600;
+}
+
+.hero-text {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4d3e45;
+}
+
+.main-content {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 24px 20px 40px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.form-card,
+.info-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(75, 49, 61, 0.08);
+}
+
+.form-card h2 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  color: #2d1f27;
+}
+
+.form-note {
+  margin: 0 0 20px;
+  color: #6a6165;
+  line-height: 1.6;
+}
+
+.field-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #4b3942;
+}
+
+.section-title {
+  margin: 18px 0 12px;
+  padding: 10px 14px;
+  background: #f7edf2;
+  border-left: 4px solid #c69ab0;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #4a3640;
+}
+
+.form-card input,
+.form-card textarea,
+.form-card select {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  border: 1px solid #dbcfd5;
+  border-radius: 12px;
+  font-size: 15px;
+  outline: none;
+  background: #fcfbfc;
+  transition: all 0.2s ease;
+}
+
+.form-card input:focus,
+.form-card textarea:focus,
+.form-card select:focus {
+  border-color: #be8fa7;
+  box-shadow: 0 0 0 3px rgba(234, 209, 220, 0.55);
+}
+
+.form-card button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background: #6b4f5f;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.form-card button:hover {
+  opacity: 0.93;
+}
+
+.form-card button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.success-message {
+  background: #edf8ef;
+  color: #237a3b;
+  border: 1px solid #b7e0c0;
+  padding: 12px 14px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-card h3 {
+  margin: 0 0 14px;
+  font-size: 22px;
+  color: #35242c;
+}
+
+.info-card ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.info-card li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.course-chip {
+  background: #f8edf2;
+  color: #5c4551;
+  border: 1px solid #e6d4dd;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.founder-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #6b4f5f;
+  margin-bottom: 10px;
+}
+
+.info-card a {
+  color: #6b4f5f;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.info-card a:hover {
+  text-decoration: underline;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #25d366;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+  z-index: 1000;
+}
+
+.page-footer {
+  text-align: center;
+  padding: 10px 20px 35px;
+  color: #5e4d56;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-section h1 {
+    font-size: 30px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+  }
+
+  .form-card,
+  .info-card {
+    padding: 22px;
+  }
+
+  .whatsapp-btn {
+    right: 14px;
+    bottom: 14px;
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+}

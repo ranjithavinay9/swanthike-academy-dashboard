@@ -4,6 +4,7 @@ import { AuthProvider, useAuth } from "./AuthContext";
 import LoginPage from "./LoginPage";
 import ProtectedRoute from "./ProtectedRoute";
 import DashboardApp from "./DashboardApp";
+import RegisterPage from "./pages/RegisterPage";
 
 function HomeRedirect() {
   const { user, authLoading } = useAuth();
@@ -19,6 +20,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomeRedirect />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
           <Route
             path="/app"
             element={
